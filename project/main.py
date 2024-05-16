@@ -12,5 +12,9 @@ def index():
 @login_required
 def profile():
     return render_template('profile.html', name=current_user.name)
+<<<<<<< HEAD
 
 # bens comment
+=======
+# Men
+>>>>>>> c514521f5be7415ee6af4487785b43e0cba067ad
